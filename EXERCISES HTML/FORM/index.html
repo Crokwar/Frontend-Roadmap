@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <h1>FORM REGISTERING</h1>
+    <form>
+        <laber for="name">USERNAME*</laber><br>
+        <input type="text" placeholder="Write your name" id="name" autocomplete="off" pattern="^(?!.* (?: |$))[A-Z][a-z ]+$" required><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <label for="phone">PHONE NUMBER*</label><br>
+        <input type="text"  placeholder="(indictive) phone number" id="phone" autocomplete="off" pattern="+[0,9]{10}" required><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <label for="email">EMAIL*</label><br>
+        <input type="email"  placeholder="Write your email" id="email" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]" autocomplete="off" required><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <label>GENDER</label><br>
+        <select>
+            <option value="">   </option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">doesn't want to specify </option>
+        </select><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <label>LOCATION*</label>
+        <select>
+            <option value="">   </option>
+            <option value="">Oregon</option>
+            <option value="">Texas</option>
+            <option value="">San Francisco</option>
+            <option value="">Washington DC</option>
+        </select><br><br>
+<!------------------------------------------------------------------------------------------------------->   
+        <label>ADDRESS*</label><br>
+        <label for="street">Street:   </label>
+        <input type="text" id="street" placeholder="Write your street" required><br>
+        <label for="avenue">Avenue:  </label>
+        <input type="text" id="avenue" placeholder="Write your avenue" required><br>
+        <label for="code">Zip code: </label>
+        <input type="text" id="code" placeholder="Write your zip code" required><br><br>
+<!------------------------------------------------------------------------------------------------------->  
+        <label>CAREER TO APPLY*</label><br>
+        <select>
+            <option value="">   </option>
+            <option value="">Maths</option>
+            <option value="">Computer Science</option>
+            <option value="">Physics</option>
+            <option value="">Psychology</option>
+            <option value="">Philosophy</option>
+        </select><br><br>
+<!------------------------------------------------------------------------------------------------------->  
+        <label>FAMILY'S INFORMATION*</label><br>
+        <label for="mother">Mother's fullname:   </label>
+        <input type="text" id="mother" placeholder="Write your name mother" required><br>
+        <label for="father">Father's fullname:  </label>
+        <input type="text" id="father" placeholder="Write your name father" required><br>
+        <label>Siblings?</label>
+        <select>
+            <option value="">  </option>
+            <option value="">Si</option>
+            <option value="">No</option>
+        </select><br>
+        <label for="income">Annual income: </label>
+        <input type="text" id="income" placeholder="Write your family's annual income" required><br><br>
+<!------------------------------------------------------------------------------------------------------->       
+        <label for="contry">CONTRY OF BIRTH*</label><br>
+        <input type="text" placeholder="Write your contry of birth" id="contry" required><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <label for="date">DATE OF BIRTH*</label><br>
+        <input type="date" id="date" required><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <label for="beca">WANT TO APPLY A TO SCHOLARSHIP?</label><br>
+        <select>
+            <option value="">   </option>
+            <option value="">Si</option>
+            <option value="">No</option>
+        </select><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <label>APPLICATION SEASON</label><br>
+        <select>
+            <option value="">   </option>
+            <option value="">Winter</option>
+            <option value="">Spring</option>
+        </select><br><br>
+<!------------------------------------------------------------------------------------------------------->
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
